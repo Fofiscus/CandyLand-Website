@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/stylecontact.css" />
+<link rel="stylesheet" type="text/css" href="css/global.css" />
+<title>
+Contact
+</title>
+
+<script type="text/javascript" src="js/javascript.js"> </script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- Website Logo -->
+<div id="logo">
+	<img src="data/candylogo.png" alt="logo" height="110" width="779" />
+</div>
+
+<!-- Puts a space between logo and navigation bar -->	
+<div id="spacer1">
+</div>
+
+<!-- Navigation bar -->	
+<div id="navigation">
+	<ul>
+		<li><a class="navbar" href="home.html">Home</a></li>
+		<li><a class="navbar" href="products.html">Products</a></li>
+		<li><a class="navbar" href="contact.html">Contact</a></li>
+		<li><a class="navbar" href="about.html">About</a></li>
+	</ul>
+</div>
+
+<!-- Puts a space between navigation bar and content -->	
+<div id="spacer2">
+</div>	
+
+<!-- Main body of the website -->	
+<div id="contents">
+	<form onsubmit="return validateForm(this);" action="#" >
+	<!-- Customer form -->	
+		<div id="form">
+			<p id="headertext"> &nbsp;&nbsp;Would you like to Subscribe to CandyLand?  </p>
+			<p id="firstname">&nbsp;&nbsp;First name:   <input id="input1" type="text" name="fname" maxlength="30" size="50" /></p>
+			<p id="lastname">&nbsp;&nbsp;Last name:   <input  id="input2" type="text" name="sname" maxlength="30" size="50" /> </p>
+			<p id="email">&nbsp;&nbsp;Email Address:   <input  id="input3" type="text" name="email" maxlength="30" size="50" />  </p>
+			<p id="favsweet">&nbsp;&nbsp;Favorite Sweet:   <input  id="input4" type="text" name="sweets" maxlength="30" size="50" />  </p>
+			<p id="phonenum">&nbsp;&nbsp;Phone Number:     <input  id="input5" type="text" name="phone" maxlength="30" size="50" /></p>
+			<p id="emails">&nbsp;&nbsp;Would you like to recieve promotional emails from CandyLand? <input  id="input6" type="checkbox" name="emailcheck" /></p> 
+			<p id="texts">&nbsp;&nbsp;Would you like to recieve promotional texts from CandyLand? <input  id="input7" type="checkbox" name="textcheck" /></p>   
+		</div>
+
+<div id="social">
+
+	<p id="socialLinks">
+	Don't forget to check us out on <a href="http://www.facebook.com/CandylandIreland?skip_nax_wizard=true" title="facebook link">Facebook </a> and <a href="https://twitter.com/CandylandIre" title="twitter link"> Twitter</a>!
+	</p>
+</div>
+
+<!-- Comments box -->	
+<div id="comments">
+	&nbsp;&nbsp;<fieldset><legend class="center">Any Comments? </legend></fieldset>
+	<textarea rows = "6" cols = "30" name = "comments"></textarea> 
+	<p id="subscribe"><input  id="input8" type="submit" name="submitbutton" value="Subscribe" /></p>
+	<p id="reset"><input  id="input9" type="reset" name="resetbutton"  /></p>
+	<a href="http://goo.gl/maps/Xvpd7" id="maps" title="mapsLink" > Would you like to see where we are? </a>	
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

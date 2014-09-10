@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/styleproducts.css" />
+<link rel="stylesheet" type="text/css" href="css/global.css" />
+<title>
+Products
+</title>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine/style.css" media="screen" />
+<script type="text/javascript" src="engine/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+<body>
+
+
+<div id="wrapper">
+
+<!-- Website Logo -->
+<div id="logo">
+	<img src="data/candylogo.png" alt="logo" height="110" width="779" />
+</div>
+	
+<!-- Puts a space between logo and navigation bar -->	
+<div id="spacer">
+</div>
+
+<!-- Navigation bar -->	
+<div id="navigation">
+	<ul>
+		<li><a class="navbar" href="home.html">Home</a></li>
+		<li><a class="navbar" href="products.html">Products</a></li>
+		<li><a class="navbar" href="contact.html">Contact</a></li>
+		<li><a class="navbar" href="about.html">About</a></li>
+	</ul>
+</div>
+
+<!-- Puts a space between navigation bar and content -->	
+<div id="spacer1">
+</div>	
+
+<!-- Main body of the website -->	
+<div id="contents">
+<p><h3>Have a look at our selection of products.</h3></p>
+</div>
+
+<!-- Puts a space between content and slideshow -->	
+<div id="spacer2">
+</div>
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data/images/candycanes.jpg" alt="candy canes" title="candy canes" id="wows1_0"/>Christmaslicious!</li>
+		<li><img src="data/images/dollymixtures.jpg" alt="dolly mixtures" title="dolly mixtures" id="wows1_1"/>not made from barbies, rest assured.</li>
+		<li><img src="data/images/fizzycolas.jpg" alt="fizzy colas" title="fizzy colas" id="wows1_2"/>everyone loves these.</li>
+		<li><img src="data/images/floralgums.jpg" alt="floral gums" title="floral gums" id="wows1_3"/>also known as the gems of midgets</li>
+		<li><img src="data/images/giantapplecable.jpg" alt="gianttapple cables" title="gianttapple cables" id="wows1_4"/>Patriotic taste</li>
+		<li><img src="data/images/giantstrawberry.jpg" alt="Giant straw berries" title="Giant straw berries" id="wows1_5"/>enlarged by evil scientists</li>
+		<li><img src="data/images/giantstrawberrycable.jpg" alt="Giant strawberry cable" title="Giant strawberry cable" id="wows1_6"/>are you red-dy for these?</li>
+		<li><img src="data/images/gummybear.jpg" alt="Gummy bears" title="Gummy bears" id="wows1_7"/>I can't bear to sell these...</li>
+		<li><img src="data/images/jellybeans.jpg" alt="jellybeans" title="jellybeans" id="wows1_8"/></li>
+	</ul></div>
+
+<!-- SLideshows preview -->		
+<div class="ws_bullets">
+	<div>
+		<a href="#wows1_0" title="candy canes"><img src="data/tooltips/candycanes.jpg" alt="candy canes"/>1</a>
+		<a href="#wows1_1" title="dolly mixtures"><img src="data/tooltips/dollymixtures.jpg" alt="dolly mixtures"/>2</a>
+		<a href="#wows1_2" title="fizzy colas"><img src="data/tooltips/fizzycolas.jpg" alt="fizzy colas"/>3</a>
+		<a href="#wows1_3" title="floral gums"><img src="data/tooltips/floralgums.jpg" alt="floral gums"/>4</a>
+		<a href="#wows1_4" title="gianttapple cables"><img src="data/tooltips/giantapplecable.jpg" alt="gianttapple cables"/>5</a>
+		<a href="#wows1_5" title="Giant straw berries"><img src="data/tooltips/giantstrawberry.jpg" alt="Giant straw berries"/>6</a>
+		<a href="#wows1_6" title="Giant strawberry cable"><img src="data/tooltips/giantstrawberrycable.jpg" alt="Giant strawberry cable"/>7</a>
+		<a href="#wows1_7" title="Gummy bears"><img src="data/tooltips/gummybear.jpg" alt="Gummy bears"/>8</a>
+		<a href="#wows1_8" title="jellybeans"><img src="data/tooltips/jellybeans.jpg" alt="jellybeans"/>9</a>
+	</div>
+</div>
+
+<a class="wsl" href="http://wowslider.com">jQuery Image Slideshow Example by WOWSlider.com v2.7.1</a>
+<a href="#" class="ws_frame"></a>
+	
+<div class="ws_shadow">
+</div>
+
+</div>
+	
+<script type="text/javascript" src="engine/wowslider.js"></script>
+<script type="text/javascript" src="engine/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+	
+</div>
+</body>
+</html>
