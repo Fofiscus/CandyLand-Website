@@ -1,9 +1,3 @@
-Rosspository
+"CandyLand" web development Project
 ============
-This is a list of web development projects I created in college (usually as part of a group).
-
-
-
-
-
-Repository of my web projects
+This was a project created in first year based on a specification of various requirements for a fictional company
